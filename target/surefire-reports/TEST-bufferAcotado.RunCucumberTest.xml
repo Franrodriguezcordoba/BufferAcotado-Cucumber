@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="bufferAcotado.RunCucumberTest" time="0.179" tests="6" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="14"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\franc\OneDrive\Escritorio\Ingenieria de la Salud\3º Ing Salud\2º cuatrimestre\Ingeniería de Software Avanzada\Cucumber\bufferAcotado\target\test-classes;C:\Users\franc\OneDrive\Escritorio\Ingenieria de la Salud\3º Ing Salud\2º cuatrimestre\Ingeniería de Software Avanzada\Cucumber\bufferAcotado\target\classes;C:\Users\franc\.m2\repository\io\cucumber\cucumber-java\7.0.0\cucumber-java-7.0.0.jar;C:\Users\franc\.m2\repository\io\cucumber\cucumber-core\7.0.0\cucumber-core-7.0.0.jar;C:\Users\franc\.m2\repository\io\cucumber\cucumber-gherkin\7.0.0\cucumber-gherkin-7.0.0.jar;C:\Users\franc\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.0.0\cucumber-gherkin-messages-7.0.0.jar;C:\Users\franc\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\franc\.m2\repository\io\cucumber\tag-expressions\4.0.2\tag-expressions-4.0.2.jar;C:\Users\franc\.m2\repository\io\cucumber\cucumber-expressions\13.0.1\cucumber-expressions-13.0.1.jar;C:\Users\franc\.m2\repository\io\cucumber\datatable\7.0.0\datatable-7.0.0.jar;C:\Users\franc\.m2\repository\io\cucumber\cucumber-plugin\7.0.0\cucumber-plugin-7.0.0.jar;C:\Users\franc\.m2\repository\io\cucumber\docstring\7.0.0\docstring-7.0.0.jar;C:\Users\franc\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\franc\.m2\repository\io\cucumber\create-meta\6.0.1\create-meta-6.0.1.jar;C:\Users\franc\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\franc\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.0.0\cucumber-junit-platform-engine-7.0.0.jar;C:\Users\franc\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;C:\Users\franc\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\franc\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\franc\.m2\repository\org\junit\platform\junit-platform-suite\1.8.1\junit-platform-suite-1.8.1.jar;C:\Users\franc\.m2\repository\org\junit\platform\junit-platform-suite-api\1.8.1\junit-platform-suite-api-1.8.1.jar;C:\Users\franc\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.8.1\junit-platform-suite-engine-1.8.1.jar;C:\Users\franc\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.8.1\junit-platform-suite-commons-1.8.1.jar;C:\Users\franc\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.1\junit-platform-launcher-1.8.1.jar;C:\Users\franc\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.1\junit-jupiter-5.8.1.jar;C:\Users\franc\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\franc\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.1\junit-jupiter-params-5.8.1.jar;C:\Users\franc\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Madrid"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\franc\AppData\Local\Temp\surefire2357287219571699696\surefirebooter17763758179117787056.jar C:\Users\franc\AppData\Local\Temp\surefire2357287219571699696 2022-03-20T16-45-15_907-jvmRun1 surefire3651724582869357725tmp surefire_016143975011767059219tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\franc\OneDrive\Escritorio\Ingenieria de la Salud\3º Ing Salud\2º cuatrimestre\Ingeniería de Software Avanzada\Cucumber\bufferAcotado\target\test-classes;C:\Users\franc\OneDrive\Escritorio\Ingenieria de la Salud\3º Ing Salud\2º cuatrimestre\Ingeniería de Software Avanzada\Cucumber\bufferAcotado\target\classes;C:\Users\franc\.m2\repository\io\cucumber\cucumber-java\7.0.0\cucumber-java-7.0.0.jar;C:\Users\franc\.m2\repository\io\cucumber\cucumber-core\7.0.0\cucumber-core-7.0.0.jar;C:\Users\franc\.m2\repository\io\cucumber\cucumber-gherkin\7.0.0\cucumber-gherkin-7.0.0.jar;C:\Users\franc\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.0.0\cucumber-gherkin-messages-7.0.0.jar;C:\Users\franc\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\franc\.m2\repository\io\cucumber\tag-expressions\4.0.2\tag-expressions-4.0.2.jar;C:\Users\franc\.m2\repository\io\cucumber\cucumber-expressions\13.0.1\cucumber-expressions-13.0.1.jar;C:\Users\franc\.m2\repository\io\cucumber\datatable\7.0.0\datatable-7.0.0.jar;C:\Users\franc\.m2\repository\io\cucumber\cucumber-plugin\7.0.0\cucumber-plugin-7.0.0.jar;C:\Users\franc\.m2\repository\io\cucumber\docstring\7.0.0\docstring-7.0.0.jar;C:\Users\franc\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\franc\.m2\repository\io\cucumber\create-meta\6.0.1\create-meta-6.0.1.jar;C:\Users\franc\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\franc\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.0.0\cucumber-junit-platform-engine-7.0.0.jar;C:\Users\franc\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;C:\Users\franc\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\franc\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\franc\.m2\repository\org\junit\platform\junit-platform-suite\1.8.1\junit-platform-suite-1.8.1.jar;C:\Users\franc\.m2\repository\org\junit\platform\junit-platform-suite-api\1.8.1\junit-platform-suite-api-1.8.1.jar;C:\Users\franc\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.8.1\junit-platform-suite-engine-1.8.1.jar;C:\Users\franc\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.8.1\junit-platform-suite-commons-1.8.1.jar;C:\Users\franc\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.1\junit-platform-launcher-1.8.1.jar;C:\Users\franc\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.1\junit-jupiter-5.8.1.jar;C:\Users\franc\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\franc\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.1\junit-jupiter-params-5.8.1.jar;C:\Users\franc\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\franc"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-04-14"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-14.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\franc\OneDrive\Escritorio\Ingenieria de la Salud\3º Ing Salud\2º cuatrimestre\Ingeniería de Software Avanzada\Cucumber\bufferAcotado"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\franc\AppData\Local\Temp\surefire2357287219571699696\surefirebooter17763758179117787056.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="14.0.1+7"/>
+    <property name="user.name" value="franc"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\franc\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\franc\AppData\Local\Temp\"/>
+    <property name="java.version" value="14.0.1"/>
+    <property name="user.dir" value="C:\Users\franc\OneDrive\Escritorio\Ingenieria de la Salud\3º Ing Salud\2º cuatrimestre\Ingeniería de Software Avanzada\Cucumber\bufferAcotado"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\franc\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\franc\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\franc\OneDrive\Escritorio\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\AutoFirma\AutoFirma;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn;C:\Program Files\Microsoft SQL Server\120\Tools\Binn;C:\Program Files\Microsoft SQL Server\120\DTS\Binn;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Git\cmd;C:\Users\franc\OneDrive\Escritorio\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;C:\Users\franc\AppData\Local\Microsoft\WindowsApps;C:\Users\franc\AppData\Roaming\TinyTeX\bin\win32;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="14.0.1+7"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="58.0"/>
+  </properties>
+  <testcase name="Cero capacity" classname="Capacity" time="0.059">
+    <system-out><![CDATA[
+Scenario: Cero capacity                                &amp#27;[90m# bufferAcotado/capacidadNegativa.feature:4&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI create a buffer with capacity cero&amp#27;[0m           &amp#27;[90m# bufferAcotado.StepDefinitions.i_create_a_buffer_with_capacity_cero()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32moutput should throw an IllegalArgumentException&amp#27;[0m &amp#27;[90m# bufferAcotado.StepDefinitions.output_should_throw_an_illegal_argument_exception()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Negative capacity" classname="Capacity" time="0.006">
+    <system-out><![CDATA[
+Scenario: Negative capacity                                 &amp#27;[90m# bufferAcotado/capacidadNegativa.feature:8&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI create a buffer with a negative capacity&amp#27;[0m          &amp#27;[90m# bufferAcotado.StepDefinitions.i_create_a_buffer_with_a_negative_capacity()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32moutput should throw another IllegalArgumentException&amp#27;[0m &amp#27;[90m# bufferAcotado.StepDefinitions.output_should_throw_another_illegal_argument_exception()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Check if the buffer is Empty" classname="IsEmpty" time="0.009">
+    <system-out><![CDATA[
+Scenario: Check if the buffer is Empty        &amp#27;[90m# bufferAcotado/isEmpty.feature:4&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI create a buffer with capacity two&amp#27;[0m   &amp#27;[90m# bufferAcotado.StepDefinitions.i_create_a_buffer_with_capacity_two()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI put &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m in the buffer&amp#27;[0m                  &amp#27;[90m# bufferAcotado.StepDefinitions.i_put_in_the_buffer(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32moutput of the buffer should be &amp#27;[0m&amp#27;[32m&amp#27;[1m"false"&amp#27;[0m &amp#27;[90m# bufferAcotado.StepDefinitions.output_of_the_buffer_should_be(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Check if the new buffer is Empty" classname="IsEmpty" time="0.006">
+    <system-out><![CDATA[
+Scenario: Check if the new buffer is Empty       &amp#27;[90m# bufferAcotado/isEmpty.feature:10&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI create a buffer with capacity three&amp#27;[0m    &amp#27;[90m# bufferAcotado.StepDefinitions.i_create_a_buffer_with_capacity_three()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI put &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m in the new buffer&amp#27;[0m                 &amp#27;[90m# bufferAcotado.StepDefinitions.i_put_in_the_new_buffer(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI remove the head of the buffer&amp#27;[0m           &amp#27;[90m# bufferAcotado.StepDefinitions.i_remove_the_head_of_the_buffer()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mnew output of the buffer should be &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m &amp#27;[90m# bufferAcotado.StepDefinitions.new_output_of_the_buffer_should_be(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Check if the buffer is full" classname="IsFull" time="0.005">
+    <system-out><![CDATA[
+Scenario: Check if the buffer is full       &amp#27;[90m# bufferAcotado/isFull.feature:4&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI create a buffer with capacity two&amp#27;[0m &amp#27;[90m# bufferAcotado.StepDefinitions.i_create_a_buffer_with_capacity_two()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI put &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m                        &amp#27;[90m# bufferAcotado.StepDefinitions.i_put_and(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32moutput should be &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m              &amp#27;[90m# bufferAcotado.StepDefinitions.output_should_be(java.lang.String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Check if it is possible to put an element in a full buffer" classname="IsFull" time="0.006">
+    <system-out><![CDATA[
+Scenario: Check if it is possible to put an element in a full buffer &amp#27;[90m# bufferAcotado/isFull.feature:9&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI create a buffer with capacity two&amp#27;[0m                          &amp#27;[90m# bufferAcotado.StepDefinitions.i_create_a_buffer_with_capacity_two()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI put &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m4&amp#27;[0m                                                 &amp#27;[90m# bufferAcotado.StepDefinitions.i_put_and(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32moutput of this should throw an exception&amp#27;[0m                      &amp#27;[90m# bufferAcotado.StepDefinitions.output_of_this_should_throw_an_exception()&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
